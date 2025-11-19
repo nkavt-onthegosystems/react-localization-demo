@@ -2,6 +2,8 @@
     "welcome": "Welcome",
     "userGreeting": "Welcome back, {{firstName}}!",
     "description": "This is a localization demo.",
-    "clickMe": "Click me"
+    "clickMe": "Click me",
+    "newMessages_one": "You have {{count}} new message.",
+    "newMessages_other": "You have {{count}} new messages."
   }
   
