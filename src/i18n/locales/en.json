@@ -1,5 +1,6 @@
 {
     "welcome": "Welcome",
+    "userGreeting": "Welcome back, {{firstName}}!",
     "description": "This is a localization demo.",
     "clickMe": "Click me"
   }
