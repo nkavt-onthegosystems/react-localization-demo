@@ -3,7 +3,7 @@ import './App.css'
 import { Trans, useTranslation } from 'react-i18next';
 
 function App() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const user = { firstName: "Sarah" };
   const [messageCount, setMessageCount] = useState<number>(1);
 
@@ -26,6 +26,8 @@ function App() {
       </p>
 
       <button onClick={handleIncrement}>{t("clickMe")}</button>
+      <button onClick={() => i18n.changeLanguage('en')}>EN</button>
+      <button onClick={() => i18n.changeLanguage('fr')}>FR</button>
     </div>
   );
 }
