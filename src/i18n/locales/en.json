@@ -1,9 +1,9 @@
 {
-    "welcome": "Welcome",
-    "userGreeting": "Welcome back, {{firstName}}!",
-    "description": "This is a localization demo.",
-    "clickMe": "Click me",
-    "newMessages_one": "You have {{count}} new message.",
-    "newMessages_other": "You have {{count}} new messages."
-  }
-  
+  "welcome": "Welcome",
+  "userGreeting": "Welcome back, {{firstName}}!",
+  "newMessages_one": "You have {{count}} new message.",
+  "newMessages_other": "You have {{count}} new messages.",
+  "description": "This is a localization demo.",
+  "termsText": "I agree to the <1>Terms of Service</1> and <3>Privacy Policy</3>.",
+  "clickMe": "Click me"
+}
